@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECF2FB;
+}
+.body-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    display: flex;
+    width: 730px;
+    height: 280px;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+    border-radius: 10px;
+
+}
+.child1{
+    width: 40%;
+    height: 100%;
+    border: none;
+}
+.drawer{
+    /* width: 100%;
+    height: 100%; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.child2{
+    width: 60%;
+    height: 100%;
+    padding: 32px 40px;
+}
+.heading{
+    width: 365px;
+    /* height: 84px; */
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #48556A;
+    letter-spacing: 0.25px;
+}
+.text{
+    width: 365px;
+    height: 60px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #6E8098;
+}
+.michelle-box{
+    display: flex;
+    justify-content: space-between;
+}
+.michelle-info{
+    display: flex;
+    gap: 16px;
+}
+.avatar{
+
+}
+.user-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-info{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #48556A;
+}
+.name{
+
+}
+.date{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #9DAEC2;
+}
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ECF2F8;
+}
+.icon{
+    /* width: 100%;
+    height: 100%; */
+}
